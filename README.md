@@ -17,6 +17,8 @@
 
 - Mini-bombas: Normalmente utilizadas em aquários, as mini-bombas são responsáveis pelo bombeamento da água para o compartimento adequado no projeto.
 
+- Motor Shield L293D: Uma placa de expansão para controlar motores DC usando o ESP32. Será utilizado para ligar as mini-bombas.
+
 - Pedras Dolomita: As pedras dolomita, compostas principalmente por carbonato de cálcio e magnésio, possuem propriedades alcalinizantes. Sua função é elevar o pH da água da chuva, reduzindo sua acidez.
 
 ## Programação
@@ -26,3 +28,5 @@ Os sistemas do projeto foram desenvolvidos utilizando a linguagem C++ por meio d
 A escolha da linguagem C++ proporcionou um ambiente robusto e flexível para o desenvolvimento dos sistemas, permitindo a implementação de algoritmos complexos e a interação direta com os recursos da placa ESP32.
 
 A plataforma Arduino IDE foi utilizada como a principal ferramenta de desenvolvimento, oferecendo uma interface intuitiva e amigável para escrever, compilar e carregar o código no ESP32. A programação desenvolvida abrange todas as funcionalidades e controles necessários para o projeto, incluindo a interação com sensores, atuadores e dispositivos externos.
+
+Além disso, utilizamos a biblioteca Adafruit Motor Shield Library para facilitar o controle do Motor Shield L293D através do código.
