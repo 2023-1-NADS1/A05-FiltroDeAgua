@@ -2,6 +2,11 @@
 
   O projeto de Filtragem de Água tem como objetivo principal implementar um sistema capaz de receber água de uma fonte externa, como a água da chuva coletada por meio de uma calha, e realizar um processo de verificação e ajuste do nível de pH dessa água. O resultado desse processo é a obtenção de uma água com pH equilibrado, pronta para ser utilizada em diversas aplicações, tais como a rega de plantas, o abastecimento de aquários ou o cultivo em mini-hortas, entre outros.
   
+### Integrantes
+- Luca Figliola Silvestri
+- Pedro Henrique Costa dos Santos
+- Victor Pereira de Sousa
+  
 ## Componentes Físicos
   
 - Placa ESP32: Plataforma programável eletrônica responsável por receber os dados coletados pelo medidor de pH e de nível da água e controlar as mini bombas.
